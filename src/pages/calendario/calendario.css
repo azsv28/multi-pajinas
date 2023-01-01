@@ -1,0 +1,25 @@
+.Showcase .react-component {
+ width: calc(100% - 10%);
+ max-width: 1110px;
+ margin-top: calc(var(--component-height) / -2);
+ margin-bottom: 4em;
+ margin-left: auto;
+ margin-right: auto;
+ display: flex;
+ justify-content: center;
+ font-size: 19px;
+}
+
+.react-calendar {
+ border-radius: 4px;
+ width: 350px;
+ max-width: 100%;
+ background: white;
+ font: inherit;
+ line-height: 1.125em;
+ border: 0;
+ overflow: hidden;
+ margin-left: 550px;
+ margin-top: 150px;
+ box-shadow: 0 30px 40px 0 rgb(50, 235, 8);
+}
